@@ -72,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 npx create-react-app simple-redux
 
 npm i redux react-redux
+
+npm start
