@@ -9,14 +9,12 @@ function App() {
     <div className="App">
       <h1>React-Redux (Simple)</h1>
       <div className='line'>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card title='CARD 1' red>x</Card>
+        <Card title='CARD 2' green>x</Card>
       </div>
       <div className='line'>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        <Card title='CARD 3' blue>z</Card>
+        <Card title='CARD 4' purple>z</Card>
       </div>
     </div>
   );
