@@ -2,8 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Card from './components/Card'
 import Interval from './components/Interval'
+import Average from './components/Average'
+import Sum from './components/Sum'
+import Draw from './components/Draw'
 
 function App() {
   return (
@@ -13,9 +15,9 @@ function App() {
         <Interval></Interval>
       </div>
       <div className='line'>
-        <Card title='CARD 2' green>x</Card>
-        <Card title='CARD 3' blue>z</Card>
-        <Card title='CARD 4' purple>z</Card>
+        <Average></Average>
+        <Sum></Sum>
+        <Draw></Draw>
       </div>
     </div>
   );
