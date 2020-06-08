@@ -74,3 +74,5 @@ npx create-react-app simple-redux
 npm i redux react-redux
 
 npm start
+
+http://10.0.0.106:3000/
