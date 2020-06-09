@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,20 +8,16 @@ import Sum from './components/Sum'
 import Draw from './components/Draw'
 
 function App() {
-
-  const [min, setMin] = useState(1)
-  const [max, setMax] = useState(10)
-
   return (
     <div className="App">
       <h1>React-Redux (Simple)</h1>
       <div className='line'>
-        <Interval onMinChanged={setMin} onMaxChanged={setMax} min={min} max={max}></Interval>
+        <Interval></Interval>
       </div>
       <div className='line'>
-        <Average min={min} max={max}></Average>
-        <Sum min={min} max={max}></Sum>
-        <Draw min={min} max={max}></Draw>
+        <Average></Average>
+        <Sum></Sum>
+        <Draw></Draw>
       </div>
     </div>
   );

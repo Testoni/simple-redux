@@ -2,13 +2,12 @@ import React from 'react'
 import Card from './Card'
 
 export default props => {
-    const { min, max } = props
     return (
         <Card title='Numbers Average' green>
         <div>
             <span>
                 <span>Result:</span>
-                <strong>{(max + min) / 2}</strong>
+                <strong>5</strong>
             </span>
         </div>
         </Card>
