@@ -6,3 +6,10 @@ export function changeMinNumber(newNumber) {
         payload: newNumber
     }
 }
+// action creater
+export function changeMaxNumber(newNumber) {
+    return {
+        type: 'NUM_MAX_CHANGED',
+        payload: newNumber
+    }
+}
